@@ -32,3 +32,20 @@
     background-color: blueviolet;
     border-radius: 0 0 0 0;
 }
+
+article{
+    width: 80%;
+    padding-top : 20px;
+    margin : auto;
+    text-align: center;
+    display: block;
+
+}
+
+article h2 {
+    font-weight: bold;
+}
+
+article h6 {
+    color : blueviolet;
+}
