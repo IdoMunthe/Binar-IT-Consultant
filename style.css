@@ -1,7 +1,7 @@
 * body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .body {
@@ -9,7 +9,7 @@
     height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: aliceblue;
 }
 
@@ -20,9 +20,30 @@
     flex-direction: row;
     column-gap: 300px;
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
+}
+
+.logos {
+    margin-left: 50px;
+    padding: 10px;
+    background-color: hsl(40, 36%, 88%);
+    color: goldenrod;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigate {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-section > img {
@@ -35,8 +56,12 @@
 
 .hero-section > .h1 {
     padding: 20px;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
 }
 
 .container {
